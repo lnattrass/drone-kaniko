@@ -95,7 +95,8 @@ else
     # Cache is not valid with --no-push
     CACHE=""
 fi
-
+echo "Waiting a minute.."
+sleep 60
 /kaniko/executor -v ${LOG} \
     --context=${CONTEXT} \
     --dockerfile=${DOCKERFILE} \
