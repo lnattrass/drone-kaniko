@@ -1,5 +1,5 @@
 #!/busybox/sh
-
+set -x
 set -euo pipefail
 
 export PATH=$PATH:/kaniko/
